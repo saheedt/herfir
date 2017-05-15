@@ -1,0 +1,28 @@
+{
+  "name": "herfir",
+  "version": "1.0.0",
+  "description": "Firebase + Heroku + Nodejs Test app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saheedt/herfir.git"
+  },
+  "author": "saheed ajibulu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saheedt/herfir/issues"
+  },
+  "homepage": "https://github.com/saheedt/herfir#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "firebase": "^3.9.0"
+  }
+}
